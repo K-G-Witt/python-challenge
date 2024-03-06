@@ -6,13 +6,6 @@ cd Desktop
 
 # Clone virtual GitHub repo to local Desktop:
 git clone https://github.com/K-G-Witt/python-challenge.git
-## Cloning into 'python-challenge'...
-## remote: Enumerating objects: 22, done.
-## remote: Counting objects: 100% (22/22), done.
-## remote: Compressing objects: 100% (16/16), done.
-## Receiving objects: 100% (22/22)
-## Receiving objects: 100% (22/22), 101.13 KiB | 3.06 MiB/s, done.
-## Resolving deltas: 100% (1/1), done.
 
 # Navigate into newly created local repo:
 cd python-challenge
