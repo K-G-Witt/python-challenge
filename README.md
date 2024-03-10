@@ -7,7 +7,7 @@ This project contains two separate sub-projects, both of which use python script
 Monthly financial records for a company between January 2010 and February 2017.
 
 3. **PyPoll:**
-XX.
+Polling station vote counts for three political candidates standing for election in three different counties.
    
 ## Installation and Run Instructions:
 Each project contains the same files, namely:
@@ -26,6 +26,14 @@ Executing this script will output the following information:
 3. Change in profit/loss over the entire period and the average of these changes;
 4. Greatest increase in profits over the entire period, and;
 5. Greatest decrease in profits over the entire period.
+
+**PyPoll:**
+Executing this script will output the following information: 
+1. The total number of votes cast;
+2. A complete list of candidates who received votes;
+3. The percentage of votes each candidate won;
+4. The total number of votes each candidate won;
+5. The winner of the election based on the popular vote.
 
 
 ## Credits:
