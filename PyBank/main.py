@@ -23,15 +23,15 @@ with open(budget_data_path) as csvfile:
 
     # Defining the header:
     csv_header = next(csvreader)
-
-    # Define col1 as containing date information:
-    date.append(row[0])
-
-    # Define col2 as containing profit/loss information:
-    prof_loss.append(row[1])
     
     # Loop through the dataset, starting after the header row:
     for row in csvreader:
+
+        # Define col1 as containing date information:
+        date.append(row[0])
+
+        # Define col2 as containing profit/loss information:
+        prof_loss.append(row[1])
 
         # Calculate total number of months:
         tot_months += 1
